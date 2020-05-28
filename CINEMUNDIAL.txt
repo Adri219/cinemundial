@@ -1,0 +1,109 @@
+BOSQUEJO
+http://framebox.org/AlPFP
+
+PROGRAMA
+#include <stdio.h>
+
+int main(){
+	
+int n;
+
+do{
+	
+printf("    **************************************************************\n");
+printf("    *                      -CINEMUNDIAL-.                        *\n");
+printf("    **************************************************************\n\n");
+    
+printf( "\n   1. LOS JUEGOS DEL HOMBRE.");
+printf( "\n   2. EL HOMBRE TOPO.");
+printf( "\n   3. EL MALVADO DOCTOR.");
+printf( "\n   4. Salir. \n\n" );
+       
+scanf( "%d", &n );
+
+       
+
+switch (n ) {
+	
+case 1:
+
+printf("    **************************************************************\n");
+printf("    *                      -CINEMUNDIAL-.                        *\n");
+printf("    **************************************************************\n\n");
+
+
+printf( "\n LOS JUEGOS DEL HOMBRE\n.");
+
+printf( "\n   1. BOLETO(S).");
+printf( "\n   2. CALIDAD 2D O 3D.");
+printf( "\n   3. SALA.");
+printf( "\n   4. ASIENTO(S).");
+printf( "\n   5. NUMERO DE NIÑOS.");
+printf( "\n   6. NUMWEO DE ADULTOS.");
+printf( "\n   7. DESCUENTOS.");
+printf( "\n   8. CUPONES.");
+printf( "\n   9. PAQUETERIA.");
+printf( "\n   10. ESTACIONAMIENTO.");
+printf( "\n   11. IMPRIMIR BOLETO(S)).");
+printf( "\n   12. SALIR.\n\n");
+
+
+
+break;
+
+
+case 2: 
+
+printf("    **************************************************************\n");
+printf("    *                      -CINEMUNDIAL-.                        *\n");
+printf("    **************************************************************\n\n");
+
+printf( "\n EL HOMBRE TOPO.\n");
+
+printf( "\n   1. BOLETO(S).");
+printf( "\n   2. CALIDAD 2D O 3D.");
+printf( "\n   3. SALA.");
+printf( "\n   4. ASIENTO(S).");
+printf( "\n   5. NUMERO DE NIÑOS.");
+printf( "\n   6. NUMWEO DE ADULTOS.");
+printf( "\n   7. DESCUENTOS.");
+printf( "\n   8. CUPONES.");
+printf( "\n   9. PAQUETERIA.");
+printf( "\n   10. ESTACIONAMIENTO.");
+printf( "\n   11. IMPRIMIR BOLETO(S)).");
+printf( "\n   12. SALIR.\n\n");
+
+break;
+
+
+case 3: 
+
+printf("    **************************************************************\n");
+printf("    *                      -CINEMUNDIAL-.                        *\n");
+printf("    **************************************************************\n\n");
+
+printf( "\n EL MALVADO DOCTOR\n.");
+
+printf( "\n   1. BOLETO(S).");
+printf( "\n   2. CALIDAD 2D O 3D.");
+printf( "\n   3. SALA.");
+printf( "\n   4. ASIENTO(S).");
+printf( "\n   5. NUMERO DE NIÑOS.");
+printf( "\n   6. NUMWEO DE ADULTOS.");
+printf( "\n   7. DESCUENTOS.");
+printf( "\n   8. CUPONES.");
+printf( "\n   9. PAQUETERIA.");
+printf( "\n   10. ESTACIONAMIENTO.");
+printf( "\n   11. IMPRIMIR BOLETO(S)).");
+printf( "\n   12. SALIR.\n\n");
+
+break;
+
+}
+          
+
+
+    } while ( n != 4 );
+
+    return 0;
+}
